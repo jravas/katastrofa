@@ -17,7 +17,7 @@
 body {
   margin: 20px;
   min-width: 320px;
-  min-height: calc(100vh - 20px);
+  min-height: calc(100vh - 40px);
 
   display: flex;
   place-items: center;
