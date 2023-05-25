@@ -19,12 +19,14 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: calc(100vh - 60px);
   justify-content: center;
   border: 10px solid #fff
 }
 
 h1 {
+  margin: 20px;
   font-size: 3.2em;
   line-height: 1.1;
+  text-align: center;
 }
