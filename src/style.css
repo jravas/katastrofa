@@ -16,12 +16,15 @@
 
 body {
   margin: 20px;
+  min-width: 320px;
+  min-height: calc(100vh - 20px);
+
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: calc(100vh - 60px);
   justify-content: center;
-  border: 10px solid #fff
+  border: 10px solid #fff;
+
+  box-sizing: border-box;
 }
 
 h1 {
